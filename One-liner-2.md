@@ -35,9 +35,8 @@ Explanation – Takes input of live domains file and passes it to rush which run
 ```
 cat live-domains | rush -j40 'if curl -Iks -m 10 "{}/https://redirect.com" | egrep "^(Location|location)\\:(| *| (http|https)\\:\\/\\/| *\\/\\/| [a-zA-Z]*\\.| (http|https)\\:\\/\\/[a-zA-Z]*\\.)redirect\\.com" || curl -Iks -m 10 "{}/redirect.com" | egrep "^(Location|location)\\:(| *| (http|https)\\:\\/\\/| *\\/\\/| [a-zA-Z]*\\.| (http|https)\\:\\/\\/[a-zA-Z]*\\.)redirect\\.com" || curl -Iks -m 10 "{}////;@redirect.com" | egrep "^(Location|location)\\:(| *| (http|https)\\:\\/\\/| *\\/\\/| [a-zA-Z]*\\.| (http|https)\\:\\/\\/[a-zA-Z]*\\.)redirect\\.com" || curl -Iks -m 10 "{}/////redirect.com" | egrep "^(Location|location)\\:(| *| (http|https)\\:\\/\\/| *\\/\\/| [a-zA-Z]*\\.| (http|https)\\:\\/\\/[a-zA-Z]*\\.)redirect\\.com"; then echo "{} It seems an Open Redirect Found"; fi'
 ```
-`On Parameters (File containing urls with parameters)`
-
-**Explanation – Takes input of urls file which then passes to qsreplace which replaces the parameter value to the injected one. Then it passes it to rush which runs 40 workers parallely and checks if the injected value comes in response header(Location).**
+**On Parameters (File containing urls with parameters)
+Explanation – Takes input of urls file which then passes to qsreplace which replaces the parameter value to the injected one. Then it passes it to rush which runs 40 workers parallely and checks if the injected value comes in response header(Location).**
 ```
 cat urls.txt | qsreplace "https://redirect.com" | rush -j40 'if curl -Iks -m 10 "{}" | egrep "^(Location|location)\\:(| *| (http|https)\\:\\/\\/| *\\/\\/| [a-zA-Z]*\\.| (http|https)\\:\\/\\/[a-zA-Z]*\\.)redirect\\.com"; then echo "Open Redirect found on {}"; fi'
 ```
