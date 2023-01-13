@@ -3,6 +3,10 @@ one liner commands for bug bounty
 Bug Bounty Writeups Penetration Testing Security 
 Powerfull Oneliner Scripts useful for Bug Bounty Hunters Comments bounty writeups, bug bounty, kali linux, linux, one liner scripts, penetration testing, shell scripting, vulnerability
 Hi All,
+### Contact
+
+Shoot my DM : [@shubhamtiwari_r](https://twitter.com/shubhamtiwari_r)
+
 
 Powerfull Oneliner Scripts useful for Bug Bounty Hunters
 Oneliner commands is the powerful way to hunt for bugs or we can say, makes the task a lot easier in hunting for bugs. If the bug bounty program has the broad scope (*.example.com), then it will be very helpful for hunters. In order to use the below oneliner commands, there are certain tools needed to be installed on your machine. Below souces can be used to install the tools. Here is the list –
@@ -157,3 +161,4 @@ ffuf -u https://FUZZ.domain.com -w /path/to/wordlist -v | grep "| URL |" | awk '
 ```
 cat alive.txt | xargs -I@ sh -c 'python3 /path/to/log4j-scan.py -u "@"
 ```
+
