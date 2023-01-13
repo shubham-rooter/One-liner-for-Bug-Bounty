@@ -5,7 +5,7 @@ Powerfull Oneliner Scripts useful for Bug Bounty Hunters Comments bounty writeup
 Hi All,
 ### Contact
 
-Shoot my DM : [@shubhamtiwari_r](https://twitter.com/shubhamtiwari_r)
+My DM : [@shubhamtiwari_r](https://twitter.com/shubhamtiwari_r)
 
 
 Powerfull Oneliner Scripts useful for Bug Bounty Hunters
