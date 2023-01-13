@@ -4,31 +4,10 @@ Bug Bounty Writeups Penetration Testing Security
 Powerfull Oneliner Scripts useful for Bug Bounty Hunters Comments bounty writeups, bug bounty, kali linux, linux, one liner scripts, penetration testing, shell scripting, vulnerability
 Hi All,
 
-Tody, I thought to share interesting onliner commands so that everyone can use it and with the help of this article, one can also make their own oneliner commands to perform certain tasks/functions to ease their Bug hunting journey.
-
 Powerfull Oneliner Scripts useful for Bug Bounty Hunters
 Oneliner commands is the powerful way to hunt for bugs or we can say, makes the task a lot easier in hunting for bugs. If the bug bounty program has the broad scope (*.example.com), then it will be very helpful for hunters. In order to use the below oneliner commands, there are certain tools needed to be installed on your machine. Below souces can be used to install the tools. Here is the list –
 
-rush:
-a cross-platform command-line tool for executing jobs in parallel.
-qsreplace :
-Accept URLs on stdin, replace all query string values with a user-supplied value, only output each combination of query string parameters once per host and path.
-sqlmap :
-for checking SQL injections flaws.
-dalfox :
-DalFox is an powerful open source XSS scanning tool and parameter analyzer and utility that fast the process of detecting and verify XSS flaws.
-gospider :
-Fast web spider written in Go.
-hakrawler :
-Fast golang web crawler for gathering URLs and JavaScript file locations.
-Secretfinder script :
-SecretFinder is a python script, written to discover sensitive data like apikeys, accesstoken, authorizations, jwt,..etc in JavaScript files.
-dirsearch :
-An advanced command-line tool designed to brute force directories and files in webservers.
-ffuf :
-A fast web fuzzer written in Go.
-anew :
-Append lines from stdin to a file, but only if they don’t already appear in the file.
+
 ## 1. `Open Redirect Check One Liner`
 **On Live Domains List (File containing Live Domains)
 Explanation – Takes input of live domains file and passes it to rush which runs 40 workers (-j40) parallely and displays if the injected value is reflected in response header (Location).**
