@@ -1,3 +1,8 @@
+
+## One Liner :
+[Page 1](https://github.com/shubham-rooter/One-liner-for-Bug-Bounty/blob/master/one-liner.md)</br>
+[Page 2](https://github.com/shubham-rooter/One-liner-for-Bug-Bounty/blob/master/one-liner2.md)
+
 ## Maintainers 
 
 `This Repo is maintained by : `
