@@ -9,13 +9,20 @@
 
 - [Shubham Rooter](https://github.com/shubham-rooter)
 
-## License :
-[MIT Licence](https://github.com/shubham-rooter/One-liner-for-Bug-Bounty/blob/master/README.md)
 
+### Author
 
-That's it... If You Like This Repo. Please Share This With Your Friends And Contribute..
-& Don't Forget To Follow Me At [Twitter](https://www.twitter.com/shubhamtiwari_r), [Instagram](https://www.instagram.com/shubham_rooter), [Github](https://www.github.com/shubham-rooter) ..!!!
+**Shubham Rooter**
+
+* [Github](https://www.github.com/shubham-rooter)
+* [Twitter](https://www.twitter.com/shubhamtiwari_r)
+* [Instagram](https://www.instagram.com/shubham_rooter)
+
+### License
+
+Copyright © 2023, [Shubham Rooter](https://github.com/Shubham-Rooter).
+Released under the [MIT License](LICENSE).
+
+***
 ***Thankyou.***
 ***Happy Hunting..***
-
-
