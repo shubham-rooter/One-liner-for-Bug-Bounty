@@ -16,6 +16,7 @@
 * [Github](https://www.github.com/shubham-rooter)
 * [Twitter](https://www.twitter.com/shubhamtiwari_r)
 * [Instagram](https://www.instagram.com/shubham_rooter)
+* [Linkdin](https://www.linkedin.com/in/shubham-tiwari09/)  
 
 ### License :
 
