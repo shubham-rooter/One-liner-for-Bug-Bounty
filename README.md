@@ -1,7 +1,7 @@
 
 ## One Liner For Bug Bounty :
-* [Page 1](https://github.com/shubham-rooter/One-liner-for-Bug-Bounty/blob/master/one-liner.md) <= Click Hear
-* [Page 2](https://github.com/shubham-rooter/One-liner-for-Bug-Bounty/blob/master/one-liner2.md) <= Click Hear
+* [Page 1](https://github.com/shubham-rooter/One-liner-for-Bug-Bounty/blob/main/One-liner.md) <= Click Hear
+* [Page 2](https://github.com/shubham-rooter/One-liner-for-Bug-Bounty/blob/main/One-liner-2.md) <= Click Hear
 
 ## Maintainers :
 
